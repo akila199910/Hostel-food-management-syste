@@ -6,6 +6,7 @@ function Signup() {
     <div className="d-flex justify-content-center align-items-center bg-primary vh-100">
     <div className="bg-white p-3 rounded w-25">
       <form action="">
+        <h2>Sign Up</h2>
         <div className="mb-3">
           <label htmlFor="fname"><strong>First Name</strong></label>
           <input type="text" placeholder="First Name" className="form-control rounded-0"/>
@@ -30,7 +31,7 @@ function Signup() {
           <label htmlFor="password"><strong>Password</strong></label>
           <input type="password" placeholder="Enter Your Password" className="form-control rounded-0"/>
         </div>
-        <button className="btn btn-success w-100 rounded-0"><strong>Sign in</strong></button>
+        <Link to="/"><button className="btn btn-success w-100 rounded-0"><strong>Sign in</strong></button></Link>
       </form>
     </div>
   </div>
